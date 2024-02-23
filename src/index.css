@@ -78,9 +78,10 @@
   stroke: white;
   /* fill: white; */
 }
-body,html {
+body,
+html {
   scroll-behavior: smooth;
 }
-.over_hidden{
+.over_hidden {
   overflow: hidden;
 }
