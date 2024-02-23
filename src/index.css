@@ -64,19 +64,23 @@
 }
 .img_hover:hover .text_hover {
   opacity: 0;
-  transition: all 200ms linear !important;
+  transition: all 300ms linear !important;
 }
 
 .img_hover:hover .layer {
   opacity: 1;
-  transition: all 200ms linear !important;
+  transition: all 300ms linear !important;
 }
 .svg_hover:hover rect {
   fill: #88c701;
+  transition: all 300ms linear !important;
+
 }
 .svg_hover:hover path {
   stroke: white;
   /* fill: white; */
+  transition: all 300ms linear !important;
+
 }
 body,
 html {

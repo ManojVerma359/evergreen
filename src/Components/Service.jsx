@@ -16,7 +16,7 @@ const Service = () => {
             Our Services
           </h3>
           <div className="flex items-center justify-between gap-[24px] pt-[37.9px] max-md:flex-wrap max-md:justify-center">
-            <div className="relative img_hover max-w-[365px]"data-aos="fade-right">
+            <div className="relative img_hover transition-all duration-300ms linear-ease max-w-[365px] cursor-pointer"data-aos="fade-right">
               <img className="w-[365px]" src={service_img3} alt="#" />
               <p className="ff_libre text-[22px] text-normal leading-[24px] text_hover text-white absolute bottom-[8%] left-[5%]">
                 Commercial Property Services
@@ -30,7 +30,7 @@ const Service = () => {
 
               <div></div>
             </div>
-            <div className="relative img_hover max-w-[365px]"data-aos="zoom-in">
+            <div className="relative img_hover max-w-[365px] transition-all duration-300ms linear-ease cursor-pointer"data-aos="zoom-in">
               <img className="w-[365px]" src={service_img1} alt="#" />
               <p className="ff_libre text-[22px] text-normal leading-[24px] text_hover text-white absolute bottom-[8%] left-[5%]">
               Residential Property Services
@@ -44,7 +44,7 @@ const Service = () => {
 
               <div></div>
             </div>
-            <div className="relative img_hover md:max-w-[365px]"data-aos="fade-right">
+            <div className="relative img_hover md:max-w-[365px] transition-all duration-300ms linear-ease cursor-pointer"data-aos="fade-right">
               <img className="w-[365px]" src={service_img2} alt="#" />
               <p className="ff_libre text-[22px] text-normal leading-[24px] text_hover text-white absolute bottom-[8%] left-[11%]">
                 Winter Property Services

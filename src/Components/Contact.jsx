@@ -47,26 +47,26 @@ const Contact = () => {
               Contact Us
             </h2>
             <div className="flex sm:gap-4 gap-3 mb-[11px] items-center">
-              <a href="/">
+              <a href="https://www.mapquest.com/us/illinois/evergreen-landscapes-448861916">
                 <Phn_icon />
               </a>
-              <span className="ff_poppins text-[#484b47] leading-[1.625] inline-block">
+              <a href="https://www.mapquest.com/us/illinois/evergreen-landscapes-448861916" className="ff_poppins cursor-pointer hover:text-[#88c701] relative after:absolute after:w-0 after:h-[2px] after:start-1 after:end-1 after:bottom-[-1px]  after:bg-[#88c701] hover:after:w-full hover:after:start-0 after:transition-all after:duration-300 after:ease-linear  after:rounded text-[#484b47] leading-[1.625] inline-block">
                 (312) 610-9790
-              </span>
+              </a>
             </div>
             <div className="flex sm:gap-4 gap-3  items-center mb-[18px] md:mb-[29px]">
-              <a href="/">
+              <a href="https://mail.google.com/mail/u/0/#inbox">
                 <Gmail_icon />
               </a>
-              <span className="ff_poppins text-[#484b47]  leading-[1.625] inline-block">
+              <a href="https://mail.google.com/mail/u/0/#inbox" className="ff_poppins cursor-pointer hover:text-[#88c701] relative after:absolute after:w-0 after:h-[2px] after:start-1 after:end-1 after:bottom-[-1px]  after:bg-[#88c701] hover:after:w-full hover:after:start-0 after:transition-all after:duration-300 after:ease-linear  after:rounded text-[#484b47]  leading-[1.625] inline-block">
                 info@evergreenlandscapesco.com
-              </span>
+              </a>
             </div>
             <p className="ff_libre text-black  leading-[1.625] mb-1">Hours</p>
             <p className="ff_poppins leading-[1.625]  lg:max-w-[161px] text-[#484B47] mb-[16px] md:mb-[21px]">
               MON-FRI: 9AM - 5PM SAT-SUN: CLOSED
             </p>
-            <p className="ff_poppins leading-[1.5] text-[#7a7f79] md:max-w-[309px]">
+            <p className="ff_poppins italic leading-[1.5] text-[#7a7f79] md:max-w-[309px]">
               Contact us today for a free no obligation consultation
             </p>
           </div>
@@ -126,7 +126,7 @@ const Contact = () => {
                 className=" resize-none border-[1px] border-solid rounded-[10px] border-[#E6E6E6] px-[11px] h-[48px] ff_poppins placeholder:text-[#7F7F7F] focus:border-[#88c701] focus:outline-2 focus:outline-[#e6e6e6] focus:outline-offset-[2px]"
               />
               <textarea
-                placeholder="message"
+                placeholder="Message"
                 required
                 name="message"
                 value={data.message}
